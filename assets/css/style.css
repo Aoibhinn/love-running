@@ -189,3 +189,63 @@ hr{
     border-radius: 50%;
 
 }
+
+/*meetup times*/
+
+#times{ 
+    background-image: url(../css/images/dublin-city.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div{
+    color: #fafafa;
+    background-color: rgba(0,0,0,.6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2{
+    color: #fafafa;
+}
+
+/*footer*/
+
+footer{
+    height:150%;
+}
+.social-netwoks{
+    text-align:center;
+}
+
+.social-netwoks > li {
+    display:inline;
+}
+
+.social-netwoks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/*Gallery*/
+
+#photos{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img{
+    width: 100%;
+}
